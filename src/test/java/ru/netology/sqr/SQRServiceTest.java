@@ -13,10 +13,10 @@ class SQRServiceTest {
             "'TwoHundred',100,300,7",
             "'MaximumRange',90,10000,89",
             "'MinimumRange',90,110,1",
-            "'Zero',90,100,0" })
+            "'Zero',90,100,0"})
     void shouldNumberSqrt(String name, int num1, int num2, int expected) {
         SQRService sqrService = new SQRService();
-        int actual = sqrService.sqrtErect(num1,num2);
+        int actual = sqrService.sqrtErect(num1, num2);
         assertEquals(expected, actual);
     }
 
